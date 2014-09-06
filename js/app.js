@@ -1,4 +1,12 @@
 // After the API loads, call a function to enable the search box.
+
+$(document).ready(function () {
+	getVideo();
+	handleAPILoaded();
+
+
+}); 
+
 function handleAPILoaded() {
   $('#search-button').attr('disabled', false);
 }
